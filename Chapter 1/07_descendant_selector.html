@@ -1,0 +1,26 @@
+<!-- Descendant Selector (space) – Selects all elements that are inside another element, at any level. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant selector</title>
+    <style>
+        /* This is a descendant selector */
+        div p {
+            background-color: rgb(139, 207, 209);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <article>
+            <p>I am inside a paragraph, the paragraph is inside an article, and the article is inside a div. The selector is still working because it is a descendant selector.</p>
+        </article>
+    </div>
+</body>
+
+</html>
