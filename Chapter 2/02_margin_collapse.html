@@ -1,0 +1,39 @@
+<!-- CSS Margin Collapse: It is a behavior where the vertical margins of adjacent elements combine into a single margin equal to the larger of the two margins, rather than being added together. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: o;
+        }
+        .box{
+            background-color: rgb(242, 253, 139);
+        }
+        .box1{
+            color: brown;
+            margin: 25px;
+            padding: 10px;
+            border: 2px solid blue;
+            height: 100px;
+            box-sizing: border-box;
+        }
+        .box2{
+            color: rgb(61, 133, 47);
+            margin: 25px;
+            padding: 10px;
+            border: 2px solid black;
+            height: 100px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">I am a box</div>
+    <div class="box box2">I am also a box</div>
+</body>
+</html>
