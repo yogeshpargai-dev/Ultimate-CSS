@@ -1,0 +1,17 @@
+Specificity Calculation
+To calculate specificity, assign a value to each part of the selector:
+
+Universal Selector: 0
+Element selectors and pseudo-elements: 1
+Class selectors, attribute selectors, and pseudo-classes: 10
+ID selectors: 100
+Inline styles: 1000
+Important: 10000
+
+Here is some examples:
+
+1 . <h1 id="title" class="h1">ssup gang</h1>
+Here, the specificity value will be 111 because ID has a specificity of 100, the class has a specificity of 10, and the h1 element has a specificity of 1.
+
+2. a.yogeshclass.rohanclass [href]:hover 
+The specificity of this selector is 1 + 10(class) + 10(class) + 10(attribute) + 10(pseudo class) = 41 

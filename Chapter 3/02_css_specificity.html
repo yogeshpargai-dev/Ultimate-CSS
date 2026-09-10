@@ -1,0 +1,29 @@
+<!-- Specificity: an algorithm that determines which CSS selector has the strongest match (inline > ID > class > element > universal) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        /* class */
+        .header {
+            color: blue;
+        }
+        /* id */
+        #color {
+            color: chocolate;
+        }
+        /* element  */
+        h1 {
+            color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- inline -->
+    <h1 style="color: red;" id="color" class="header">Hey i am header</h1>
+</body>
+</html>
