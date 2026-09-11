@@ -1,0 +1,9 @@
+CSS display Property:
+The display property defines how an HTML element is displayed and behaves in the layout.
+
+Common values:
+block → Takes the full available width and starts on a new line.
+inline → Takes only the required width and stays in the same line.
+inline-block → Stays in the same line like inline, but allows width, height, padding, and margin.
+display: none → hides element and removes its space.
+visibility: hidden → hides element but keeps its space.
