@@ -1,0 +1,34 @@
+Shadows :
+When styling websites, adding depth and focus to elements helps improve the design and user experience. CSS provides two powerful tools for this: shadows (box-shadow, text-shadow) and outlines.
+
+1. Box Shadows:
+box-shadow is a popular CSS property that enables designers to add shadow effects around an element's frame. It can be used to give any element, be it a div, image, or button, a 3D feel or to emphasize on hover. 
+Syntax:
+(box-shadow: h-offset v-offset blur spread color inset;)
+h-offset and v-offset: Determines the shadow's horizontal and vertical position.
+blur: The larger the value, the blurrier the shadow.
+spread: Expands or shrinks the shadow size.
+color: Defines the shadow color.
+inset: Makes the shadow inner.
+
+2. Text Shadows:
+text-shadow is utilized to give shadows specifically to the text. It can elevate the readability of the text or give it an elegant appearance.
+Syntax:
+text-shadow: h-offset v-offset blur color;
+
+3. Glow effect:
+Multiple shadows can create a neon glow effect.
+
+4. Outlines: 
+An outline is a line that is drawn around elements, outside the borders, to make the element "stand out". It's commonly used for accessibility purposes, like highlighting focused elements.
+Syntax:
+outline: width style color;
+width: Sets the outline width.
+style: Determines the style of the outline such as solid, dotted, or dashed.
+color: Sets the outline color.
+
+Key Differences: Outline vs Border
+(i) Position: Border → Takes up space inside the layout | Outline → Drawn outside and doesn't affect layout
+(ii) Offset: Border → No outline-offset property | Outline → Can use outline-offset to push it outward
+(iii) Width control: Border → Width can vary on each side | Outline → Same width on all sides
+(iv) Rounded corners: Border → Works with border-radius | Outline → Usually doesn't support rounded corners
