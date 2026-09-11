@@ -1,0 +1,11 @@
+Sometimes, content inside an element is larger than the available space. If not handled properly, this can break the layout or hide important information.
+CSS provides the overflow property to control how excess content is displayed.
+
+Overflow Hidden:
+When hidden is used, any extra content that does not fit inside the container will be cut off.
+
+Overflow Scroll:
+With scroll, the container always shows scrollbars, regardless of whether the content overflows or not.
+
+Overflow Auto:
+It is quite similar to scroll but the scroller is only added when the content starts getting out of the container. Mostly this option is used to avoid unnecessary scroll bars if the content already is within the content dimensions.
