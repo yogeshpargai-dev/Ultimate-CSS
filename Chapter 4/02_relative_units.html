@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Relative Units</title>
+  <style>
+    body { font-size: 16px; }
+    .parent {
+      border: 2px solid black;
+      padding: 10px;
+      width: 50%;
+    }
+    .em { font-size: 2em; background: lightblue; }
+    .rem { font-size: 2rem; background: lightgreen; }
+    .percent { width: 80%; height: 50px; background: coral; }
+    .vh { height: 20vh; background: gold; }
+    .vw { width: 50vw; background: violet; height: 50px; }
+  </style>
+</head>
+<body>
+  <h2>CSS Relative Units</h2>
+  <div class="parent">
+    <p class="em">This is 2em (relative to parent font-size)</p>
+    <p class="rem">This is 2rem (relative to root font-size)</p>
+    <div class="percent">This box is 80% of parent width</div>
+    <div class="vh">This box is 20% of viewport height</div>
+    <div class="vw">This box is 50% of viewport width</div>
+  </div>
+</body>
+</html>

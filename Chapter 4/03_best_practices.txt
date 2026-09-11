@@ -1,0 +1,6 @@
+Best Practices:
+
+* Use px for pixel-perfect elements (like borders, icons).
+* Use rem for scalable typography (consistent across site).
+* Use % / vh / vw for responsive layouts.
+* Avoid cm, mm, in, pt, pc in web — they’re better for print.

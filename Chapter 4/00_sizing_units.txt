@@ -1,0 +1,28 @@
+Units:
+We've seen various units in CSS so far used for many different purposes; we did hit and trial to find the correct dimensions of that unit for our website.
+In CSS, units help us define the size, spacing, and proportions of elements. Choosing the right unit is crucial for creating consistent and responsive designs.
+Units in CSS can be broadly divided into Absolute Units and Relative Units.
+
+
+1. Absolute Units:
+Absolute units are fixed — they do not scale with the screen size or parent element. They are best suited for print layouts, but in web design, we usually avoid them except for pixels (px).
+
+cm – Centimeters (1 cm = 37.8 px)
+mm – Millimeters (1 mm = 1/10th of 1 cm)
+in – Inches (1 in = 96 px = 2.54 cm)
+pt – Points (1pt = 1/72 in)
+pc – Picas (1pc = 12pt = 1/6 in)
+px – Pixels (1px = 1/96 in) → Most commonly used on screens
+Pixels (px) are most widely used because they directly map to screen dots.
+
+
+2. Relative Units
+Relative units are flexible. They adjust depending on the parent element or the viewport size, making them essential for responsive design.
+
+em - Relative to the font size of the parent element. Eg: 5em means the size would be 5 times the current font size.
+ex - Relative to X height of the existing font
+ch - Relative to the width/radius of the character “0”.
+rem - Relative to the font size of the root element.
+vw - Relative to 1% of the width of the viewport. (Viewport is the area of the website visible to the user.)
+vh - Relative to 1% of the height of the viewport
+% - Relative to the parent element’s size.
