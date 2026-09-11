@@ -1,0 +1,8 @@
+List Styles:
+Lists are one of the most common elements in web design. They help present information in a structured way and improve readability. With CSS, you can easily style both unordered lists (bulleted) and ordered lists (numbered) to match the design of your website.
+
+List-Style Position:
+The list-style-position property determines where the list markers (bullets or numbers) are placed in relation to the content.
+It has two values:
+# inside: (default) List markers are inside the content's box. This is the default behavior.
+# outside: List markers are outside the content's box, typically to the left of the content, creating a hanging indent effect.
