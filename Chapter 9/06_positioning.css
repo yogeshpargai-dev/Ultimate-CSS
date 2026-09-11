@@ -1,0 +1,23 @@
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: crimson;
+}
+
+.box4 {
+    background-color: blueviolet;
+}
+
+.box {
+    border: 2px solid black;
+    height: 333px;
+    width: 100%;
+    position: static;
+    box-sizing: border-box;
+}

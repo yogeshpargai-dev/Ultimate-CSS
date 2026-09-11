@@ -1,0 +1,34 @@
+Positioning:
+The CSS position property allows you to control how and where elements are placed on a web page. It defines whether an element should follow the natural flow of the document or be positioned at a specific spot using coordinates like top, right, bottom, and left.
+Positioning is one of the most powerful features in CSS because it lets you create layouts, fixed headers, sticky navigation bars, tooltips, modals, and much more.
+
+1. Static (Default):
+By default, all elements have position: static;. They follow the normal document flow without any special positioning.
+Syntax:
+selector {
+    position: static;
+}
+
+2. Relative:
+Elements are positioned relative to the normal position in the document.
+You can use the top, right, bottom, and left properties to move the element from its original position.
+Syntax:
+selector {
+    position: relative;
+}
+
+3. Absolute:
+Elements are positioned relative to the closest positioned ancestor (parent), which means we need to have a parent element with a positioning other than 'static'.
+Note: An absolutely positioned element is removed from the normal flow.
+ /* Exception: transform, filter, or perspective properties can also make an element appear as positioned */
+            /* transform: translate(0); */
+            /* filter: invert(0); */
+            /* perspective: 0em; */
+
+4. Fixed:
+An element with position: fixed; is positioned relative to the viewport (the screen itself). It does not move when the page is scrolled.
+This is useful for creating elements like fixed headers or footers.
+
+5. Sticky:
+Position sticky is a hybrid between 'relative' and 'fixed'.
+It allows an element to become "stuck" to the top or bottom of its container when scrolling, but it behaves like relative positioning within the container until it reaches a specified offset.
