@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global variable</title>
+    <style>
+        :root {
+            /* :root is a global variable */
+            --color: rgb(235, 151, 151);
+            --seccolor: rgb(233, 235, 120);
+            --defpad: 12px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .nav {
+            background-color: var(--color);
+        }
+        ul li {
+            list-style: none;
+            padding: var(--defpad);
+        }
+        ul {
+            display: flex;
+        }
+        .container {
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolores quisquam incidunt
+        eos tempore, culpa ea nam voluptate commodi veritatis dolore quas cum nulla nisi delectus soluta amet in ratione
+        blanditiis harum. Nam atque necessitatibus modi, dolor animi praesentium quas! Minima quasi qui blanditiis
+        exercitationem.</div>
+</body>
+</html>

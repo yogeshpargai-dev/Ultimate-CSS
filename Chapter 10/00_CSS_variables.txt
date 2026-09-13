@@ -1,0 +1,36 @@
+Variables:
+CSS Variables (also called custom properties) let you store values (like colors, font sizes, margins) in one place and reuse them throughout your stylesheet. This makes your code cleaner, easier to maintain, and more consistent.
+Instead of repeating the same color or size everywhere, you can define a variable once and use it multiple times.
+
+Syntax-
+:root {
+  --variable-name: value;
+}
+:root → defines global variables available across the page.
+--variable-name → variable name (always starts with --).
+var(--variable-name) → used to access the variable.
+
+1. Global Variable:
+A CSS variable available throughout the webpage.
+:root {
+  --color: blue;
+}
+
+2. Local Variable:
+A CSS variable available only within a specific element and its children.
+.box {
+  --color: red;
+}
+
+
+# Why Use CSS Variables?
+Easy to update values (change in one place, reflect everywhere).
+Useful for themes (light mode, dark mode).
+Cleaner and more consistent styling.
+Reduces mistakes from repeating values.
+
+# Quick Recap:
+Define variables with --name inside :root.
+Use them with var(--name).
+Can override inside elements for flexibility.
+Great for colors, spacing, fonts, themes, etc.
