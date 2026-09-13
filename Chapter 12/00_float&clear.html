@@ -1,0 +1,25 @@
+Float:
+
+The float property in CSS is used to position an element to the left or right of its container, allowing other content (like text or inline elements) to wrap around it. This property is commonly used with images, sidebars, or layouts where text should flow beside a block element.
+Think of it as the “wrap text” feature in MS Word — when you insert an image, you can let the text flow beside it instead of keeping the image on its own line.
+Syntax:
+float: none | left | right | inherit;
+none → Default value. The element will not float.
+left → The element floats to the left side of its container.
+right → The element floats to the right side of its container.
+inherit → Inherits the float property from its parent element.
+
+
+Clear:
+Sometimes floated elements affect the layout of the following elements. To fix this, we use the clear property.
+Syntax:
+p {
+    clear: both;  /* No element is allowed to float beside this paragraph */
+}
+
+
+Quick Recap:
+float lets elements move left or right inside their container.
+It allows text wrapping, similar to MS Word’s wrap-through option.
+Commonly used for images, sidebars, and layouts.
+Always remember to use clear to prevent layout issues.
