@@ -1,0 +1,10 @@
+Media Queries:
+
+Media Queries in CSS allow us to change styles depending on screen size. They are the foundation of responsive web design, which ensures your website looks good on desktops, tablets, and mobiles without building separate versions.
+Syntax:
+@media media-type and (condition) {
+  /* CSS rules */
+}
+@media → Starts the query.
+media-type → The type of output device (commonly screen for devices, print for printing).
+condition → The rule to check (like max-width: 800px). If true → styles inside apply.

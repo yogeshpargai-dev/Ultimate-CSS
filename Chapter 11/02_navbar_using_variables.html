@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        :root {
+            --navcolor: white;
+            --iconcolor: yellow;
+            --hoviconcolor: black;
+            --hovericonbg: yellow;
+            --hovernavcolor: black;
+            --hovernavbg:white;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: black;
+            padding: 15px;
+            align-items: center;
+            display: flex;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--navcolor);
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+
+        .Icon {
+            font-weight: bold;
+            font-size: 30px;
+            color: var(--iconcolor);
+            margin-right: auto;
+        }
+
+        nav nav a:hover {
+            background-color: var(--hovericonbg);
+            color: var(--hoviconcolor);
+        }
+
+        nav a:hover {
+            background-color: var(--hovernavbg);
+            border-radius: 30px;
+            color: var(--hovernavcolor);
+        }
+
+        nav span {
+            margin-left: auto;
+        }
+
+        .box {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <nav>
+            <a href="#" class="Icon">Navbar</a>
+        </nav>
+        <span>
+            <a href="about.txt">About</a>
+            <a href="#">Home</a>
+            <a href="contact.txt">Contact</a>
+        </span>
+    </nav>
+    <div class="box"></div>
+</body>
+
+</html>
