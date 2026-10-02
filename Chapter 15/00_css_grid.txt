@@ -1,0 +1,16 @@
+Grid:
+Just like FlexBox, CSS Grid with the use of rows and columns, makes it easier to style website elements.
+
+CSS Grid Layout is a two-dimensional layout system that allows you to create complex web designs using both rows and columns. Unlike Flexbox, which is one-dimensional (either row or column), Grid lets you work in both dimensions simultaneously.
+
+To use Grid, simply set display: grid; (or display: inline-grid; for inline grids) on a container. The child elements within this container become grid items, and you control their placement using various grid properties
+
+
+
+
+
+
+
+
+
+
