@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .container {
+            background-color: rgb(221, 221, 93);
+            height: 300px;
+            width: 800px;
+            position: relative;
+        }
+        .box:hover {
+            animation: identifier 1.5s ease-in-out 0ms ,
+                       identifier1 1.5s ease-in-out 50ms;
+        }
+        .box {
+            background-color: rgb(214, 99, 99);
+            height: 50px;
+            width: 50px;
+            align-content: center;
+            justify-items: center;
+        }
+        @keyframes identifier {
+            from{
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            
+        }
+        @keyframes identifier1 {
+            from{
+
+            }
+            to{
+                transform: translateX(750px);
+            }
+            
+        }
+        .footer {
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box translate"></div>
+        <footer class="footer">Yogesh</footer>
+    </div>
+</body>
+</html>

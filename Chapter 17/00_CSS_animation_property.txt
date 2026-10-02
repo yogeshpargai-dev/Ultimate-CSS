@@ -1,0 +1,14 @@
+Animations :
+CSS Animations help to animate elements from one frame to another. Controlling various CSS properties helps in changing the animation style and time without having the need to use JavaScript for the same.
+
+Animation Properties :
+Here are the important properties you can use:
+
+animation-name - Assigns the keyframe animation.
+animation-duration - Time taken for one cycle (e.g., 2s, 500ms).
+animation-iteration-count - Number of loops (1, 3, infinite).
+animation-delay - Time before animation starts (can be negative).
+animation-direction - Direction (normal, reverse, alternate, alternate-reverse).
+animation-timing-function - Speed curve (ease, linear, ease-in, ease-out, ease-in-out).
+animation-fill-mode - How element looks before/after animation (none, forwards, backwards, both).
+animation - Shorthand property to combine all of the above.

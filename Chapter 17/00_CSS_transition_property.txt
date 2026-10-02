@@ -1,0 +1,9 @@
+Transitions :
+The CSS transition property allows you to smoothly animate changes between styles over a given period of time. Instead of instantly jumping from one style to another, transitions create a gradual effect, making web elements more interactive and visually appealing.
+Syntax:
+transition: property duration timing-function delay;
+
+property → the CSS property you want to animate (width, height, color, etc.). Use all to apply transitions to all animatable properties.
+duration → how long the transition takes (e.g., 2s, 500ms).
+timing-function → how the transition progresses over time (ease, linear, ease-in, ease-out, ease-in-out, or custom cubic-bezier).
+delay → wait before the transition starts.
