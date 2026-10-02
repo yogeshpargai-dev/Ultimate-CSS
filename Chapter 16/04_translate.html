@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate</title>
+    <style>
+        .container {
+            height: 50vh;
+            width: 80vw;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr  1fr;
+        }
+        .box1 {
+            border: 2px solid red;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(175, 109, 109);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: translate(50px);
+        }
+        .box2 {
+            border: 2px solid rgb(34, 161, 2);
+            height: 50px;
+            width: 50px;
+            background-color: rgb(99, 146, 67);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: translateY(20%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Box1</div>
+        <div class="box2">Box2</div>
+    </div>
+</body>
+</html>

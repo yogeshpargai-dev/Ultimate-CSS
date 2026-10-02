@@ -1,0 +1,31 @@
+CSS Transform :
+The CSS transform property allows you to visually manipulate an element in 2D space. Using transforms, you can move, rotate, resize, or skew elements without disturbing the normal document flow.
+
+1. Rotate :
+This property rotates the content of the division either anticlockwise or clockwise according to the degree of rotation. The values are taken in degrees, and adding a negative sign makes the rotation anticlockwise.
+Syntax:
+transform: rotate(angle);
+Positive values → clockwise.
+Negative values → counterclockwise.
+
+2. Scale :
+The scale() function resizes the element in proportion to its original dimensions.
+Syntax:
+transform: scale(x, y);
+x → scaling factor for width.
+y → scaling factor for height.
+Note: If only one value is given (e.g., scale(1.5)), both width & height scale equally.
+
+3. Skew :
+This property helps in adding a slant or skew to a division. (Skew: A pair of lines neither intersecting nor parallel)
+Syntax:
+transform: skew(x-angle, y-angle);
+skewX(angle) → skew only horizontally.
+skewY(angle) → skew only vertically.
+
+4. Translate :
+The translate() function moves (shifts) an element along the X-axis, Y-axis, or both.
+Syntax:
+transform: translate(x, y);
+x → horizontal shift (positive = right, negative = left).
+y → vertical shift (positive = down, negative = up).
