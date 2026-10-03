@@ -1,0 +1,29 @@
+CSS OBJECT-FIT & IMAGE POSITIONING:
+These files demonstrate different ways to control images using CSS.
+
+01_cover.html :
+- object-fit: cover
+- Fills the container and may crop the image.
+
+02_position.html :
+- object-position
+- Controls which part of the image is visible.
+
+03_contain.html :
+- object-fit: contain
+- Shows the complete image without cropping.
+
+04_fill.html :
+- object-fit: fill
+- Stretches the image to fit the container.
+
+05_scale-down.html :
+- object-fit: scale-down
+- Prevents unnecessary enlargement of the image.
+
+06_img-background.html :
+- Uses background-image for images.
+- Demonstrates background-size and background-position.
+
+Overall, these examples explain how CSS controls image size,
+position, cropping, and backgrounds.
