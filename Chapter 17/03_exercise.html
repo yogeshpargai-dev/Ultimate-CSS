@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .container {
+            background-color: rgb(221, 221, 93);
+            height: 300px;
+            width: 800px;
+            position: relative;
+        }
+        .container:hover .box{
+            animation: animateX 5s linear infinite alternate , animateY 1s ease-out infinite alternate;
+        }
+        .box {
+            background-color: rgb(214, 99, 99);
+            border-radius: 70px;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+        }
+        @keyframes animateX {
+            from{
+                left: 0;
+            }
+            to{
+                left: calc(100% - 50px);
+            }
+            
+        }
+        @keyframes animateY {
+            from{
+                bottom: 0;
+            }
+            to{
+                bottom: calc(100% - 50px);
+            }
+            
+        }
+        .footer {
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            bottom: 270px;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box translate"></div>
+        <footer class="footer">Yogesh</footer>
+    </div>
+</body>
+</html>
