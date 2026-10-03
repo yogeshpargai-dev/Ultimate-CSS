@@ -1,21 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSS Relative Units</title>
   <style>
-    body { font-size: 16px; }
+    body {
+      font-size: 16px;
+    }
+
     .parent {
       border: 2px solid black;
       padding: 10px;
       width: 50%;
     }
-    .em { font-size: 2em; background: lightblue; }
-    .rem { font-size: 2rem; background: lightgreen; }
-    .percent { width: 80%; height: 50px; background: coral; }
-    .vh { height: 20vh; background: gold; }
-    .vw { width: 50vw; background: violet; height: 50px; }
+
+    .em {
+      font-size: 2em;
+      background: lightblue;
+    }
+
+    .rem {
+      font-size: 2rem;
+      background: lightgreen;
+    }
+
+    .percent {
+      width: 80%;
+      height: 50px;
+      background: coral;
+    }
+
+    .vh {
+      height: 20vh;
+      background: gold;
+    }
+
+    .vw {
+      width: 50vw;
+      background: violet;
+      height: 50px;
+    }
   </style>
 </head>
+
 <body>
   <h2>CSS Relative Units</h2>
   <div class="parent">
@@ -26,4 +55,5 @@
     <div class="vw">This box is 50% of viewport width</div>
   </div>
 </body>
+
 </html>
